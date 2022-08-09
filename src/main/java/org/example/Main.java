@@ -11,7 +11,7 @@ public class Main {
         Instant current = Instant.now();
         System.out.println(Arrays.toString(n1.run(new double[]{1,1,1,1,1,1,1,1,1,1})));
 
-        System.out.println(Duration.between(current, Instant.now()).toMillis());
+        System.out.println(Duration.between(current, Instant.now()).toNanos());
 
     }
 }
